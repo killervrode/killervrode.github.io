@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.smartomato.bundle",
+      "sha256_cert_fingerprints": [
+        "CB:F4:48:1F:92:B4:13:4E:36:AA:0B:E1:26:8F:14:F9:9F:DA:20:C6:4D:35:E7:CF:5B:4D:27:CA:17:9C:25:F8"
+      ]
+    }
+  }
+]
