@@ -6,6 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    < !--Smartomato Widget-- >
+<script src="//smartomato.ru/basket/widget/widget.js"></script>
+<script type="text/javascript">
+    smartomatoWidget.initialize({
+        host: "//43333.smartomato.ru/",
+        // Например, "//26.smartomato.ru/",
+        assetsBase: "//smartomato.ru/basket/widget",
+        organization_id: "43333",
+        // id вашей организации
+        features: {
+            newWidgetStyle: true
+        }
+    });
+</script>
+<style>
+    .new-widget #smartomato-application .smartomato-widget {
+        z-index: 999999!important;
+    }
+
+    #smartomato-application {
+        z-index: 9999;
+        position: relative;
+    }
+</style>
 </body>
 </html>
